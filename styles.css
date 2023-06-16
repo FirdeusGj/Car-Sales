@@ -17,8 +17,8 @@ a{
 }
 #best__sales{
     border: 1px solid #B8860B;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 0.6rem;
+    border-radius: 0.6rem;
 }
 #nav{
     justify-content: space-between;
@@ -28,20 +28,20 @@ a{
     background-color: black;
 }
 #nav__logo{
-    height:80px;
+    height:5rem;
     fill: white;
     filter:invert(1);
-    margin-left: 50px;
+    margin-left: 4rem;
     animation: alternate-reverse infinite logoAnimation 3000ms ease-in-out;
 }
 .nav__link{
-    margin-right:40px;
-    font-size: 24px;
+    margin-right:2rem;
+    font-size: 1.5rem;
 }
 #bestCars{
     background-color: #ddd;
-    border-top: 10px solid black;
-    border-bottom: 10px solid black;
+    border-top: 0.7rem solid black;
+    border-bottom: 0.7rem solid black;
 }
 #main{
     justify-content: center;
@@ -53,11 +53,14 @@ a{
 }
 .mainPic{
     height: auto;
-    max-width:100%;
+    max-width:80%;
     object-fit: contain;
 }
 .mainPic--wrap{
     width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .firstSection{
     display: flex;
@@ -65,7 +68,6 @@ a{
     width:100%;
     align-items: center;
     height:50vh;
-    overflow: hidden;
     flex: 1 1;
 }
 .best__h1,
@@ -75,13 +77,13 @@ a{
 }
 .main__text{
     text-align: center;
-    margin-top:40px;
+    margin-top:2rem;
 }
 .main__h1{
-    font-size: 66px;
+    font-size: 4rem;
 }
 .main__p{
-    font-size: 40px;
+    font-size: 2.4rem;
 }
 .gold{
     color:#B8860B;
@@ -93,23 +95,23 @@ a{
     color: #85bb65 ;
 }
 button{
-    padding: 10px;
-    font-size: 30px;
-    margin-top: 20px;
+    padding: 0.6rem;
+    font-size: 1.8rem;
+    margin-top: 1.2rem;
     background-color: transparent;
     color: #B8860B;
     cursor: pointer;
-    border-radius: 10px;
-    border: 2px solid #B8860B;
+    border-radius: 1rem;
+    border: 0.1rem solid #B8860B;
     transition: 200ms ease-in-out;
 }
 button:hover{
     background-color: #b8870b21;
-    box-shadow: 0px 0px 10px #B8860B;
+    box-shadow: 0px 0px 0.6rem #B8860B;
 }
 .car{
-    height: 200px;
-    width:250px;
+    height: 12.5rem;
+    width:15.6rem;
     flex-wrap: wrap;
     transition: 200ms ease-in-out;
     object-fit: contain;
@@ -139,7 +141,7 @@ button:hover{
     flex-wrap: wrap;
 }
 .cars__wrap{
-    width:250px;
+    width:15.6rem;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -147,22 +149,22 @@ button:hover{
 }
 .best__h1{
     text-align: center;
-    font-size: 40px;
-    padding: 50px 0;
+    font-size: 2.2rem;
+    padding: 3.1rem 0;
 }
 .car__text{
     text-align: center;
-    font-size: 30px;
+    font-size: 1.8rem;
     align-items: center;
     text-decoration: underline;
     margin-bottom: 5px;
 }
 .car__para{
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 3.1rem;
 }
 .cheap__car{
-    width:600px;
+    width:37.5rem;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -178,20 +180,20 @@ button:hover{
 }
 .cheap__para{
     text-align: center;
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
 }
 .cheap__h1{
     text-align: center;
-    font-size: 50px;
-    margin-top:20px;
+    font-size: 3.1rem;
+    margin-top:1.2rem;
 }
 .cheap__car--wrapper{
     position: relative;
-    border-radius: 20px;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.285);
+    border-radius: 1.2rem;
+    box-shadow: 0 0 1.2rem rgba(255, 255, 255, 0.285);
     overflow: hidden;
-    margin-bottom: 20px;
+    margin-bottom: 1.2rem;
 }
 .cheap__car--description{
     position: absolute;
@@ -215,8 +217,8 @@ button:hover{
     filter:blur(5px) brightness(50%);
 }
 .trending__car{
-    width:600px;
-    height: 300px;
+    width:37.5rem;
+    height: 18.7rem;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -231,7 +233,7 @@ button:hover{
     flex-wrap: wrap;
 }
 #trending{
-    border-top:10px solid black
+    border-top:0.6rem solid black
 }
 .firstSection__text{
     text-align: center;
@@ -263,7 +265,7 @@ button:hover{
 .text__svg{
     border:2px solid white;
     border-radius: 1rem;
-    box-shadow: inset 0 0 10px 0 #FFD700;
+    box-shadow: inset 0 0 0.6rem 0 #FFD700;
     padding: 2rem;
     margin:1rem;
     align-items: center;
@@ -285,14 +287,14 @@ button:hover{
 .text__svg>svg{
     height:2.5rem;
     fill:white;
-    filter: drop-shadow(0 0 10px #FFD700);
+    filter: drop-shadow(0 0 0.6rem #FFD700);
 }
 .trending__car--wrapper{
     position: relative;
-    border-radius: 20px;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.285);
+    border-radius: 1.2rem;
+    box-shadow: 0 0 1.2rem rgba(255, 255, 255, 0.285);
     overflow: hidden;
-    margin-bottom: 20px;
+    margin-bottom: 1.2rem;
 }
 .trending__car--description{
     position: absolute;
@@ -316,13 +318,13 @@ button:hover{
     filter:blur(5px) brightness(50%);
 }
 .trending__h1{
-    font-size: 30px;
+    font-size: 1.8rem;
 }
 .trending__para{
-    font-size: 20px
+    font-size: 1.2rem;
 }
 .footer__wrapper{
-    height:200px;
+    height:12.5rem;
     background-image: linear-gradient(#242424,black,black,black,black,black);
     align-items: center;
     display: flex;
@@ -330,14 +332,14 @@ button:hover{
     flex-direction: column;
 }
 #footer__logo{
-    height:70px;
+    height:5rem;
     filter:invert(1);
 }
 .footer__links{
-    margin-top: 15px;
+    margin-top: 1rem;
 }
 .footer__link{
-    margin: 0 10px;
+    margin: 0 0.6rem;
     color: #ddd;
     text-decoration: underline;
 }
@@ -345,11 +347,11 @@ button:hover{
     color:white;
 }
 .footer__text{
-    margin-top:10px;
+    margin-top:0.6rem;
 }
 .footer__para{
     font-weight: 100;
-    font-size:17px;
+    font-size:1rem;
 }
 @keyframes mainPicAnimation{
     0%{
@@ -370,43 +372,50 @@ button:hover{
 /* Small phones, tablets, large smart phones*/
 @media (max-width: 768px){
     .main__h1{
-        font-size: 45px;
+        font-size: 3rem;
+    }
+    .mainPic--wrap{
+        width:100%;
+    }
+    .firstSection{
+        display: flex;
+        flex-direction: column;
     }
     .main__p{
-        font-size:30px;
+        font-size:1.8rem;
     }
     button{
-        font-size:25px;
+        font-size:1.5rem;
     }
     .nav__link{
-        font-size: 20px;
-        margin-right:20px;
+        font-size: 1.2rem;;
+        margin-right:1.2rem;;
     }
     #cars{
         display:none;
     }
     .cheap__car{
-        width:500px;
+        width:31.2rem;
     }
     #cheap{
         align-items: center;
         justify-content: center;
     }
     .cheap__h1{
-        font-size: 35px;
+        font-size: 2.1rem;
     }
     .cheap__para{
-        font-size: 23px;
+        font-size: 1.5rem;
     }
     .trending__h1{
-        font-size: 20px;
+        font-size: 1.2rem;;
     }
     .trending__para{
-        font-size: 15px;
+        font-size: 1rem;
     }
     .trending__car{
-        width:500px;
-        height:250px;
+        width:31.5rem;
+        height:15.6rem;
     }
     .trending__cars{
         align-items: center;
@@ -417,38 +426,38 @@ button:hover{
 /*Small phones*/
 @media (max-width: 480px){
     .main__h1{
-        font-size:30px;
+        font-size:1.8rem;
     }
     .main__p{
-        font-size:25px;
+        font-size:1.5rem;
     }
     button{
-        font-size:20px;
+        font-size:1.2rem;;
     }
     #nav__logo{
-        height:50px;
+        height:3.1rem;
     }
     .nav__link{
-        font-size:17px;
+        font-size:1rem;
     }
     .best__h1{
-        font-size: 35px;
+        font-size: 2.1rem;
     }
     .cheap__para{
-        font-size:20px;
+        font-size:1.2rem;;
     }
     .cheap__h1{
-        font-size:30px;
+        font-size:1.8rem;
     }
     .cheap__car{
-        width: 380px;
+        width: 23.7rem;
     }
     .trending__para{
-        font-size:13px;
+        font-size:0.9rem;
     }
     .trending__car{
-        width:400px;
-        height:200px;
+        width:25rem;
+        height:12.5rem;
     }
 }
 @media (max-width: 1500px){
