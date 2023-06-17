@@ -19,6 +19,11 @@ a{
     border: 1px solid #B8860B;
     padding: 0.6rem;
     border-radius: 0.6rem;
+    text-decoration: none;
+    transition: 200ms ease-in-out;
+}
+#best__sales:hover{
+    box-shadow: inset 0 0 10px 0 gold;
 }
 #nav{
     justify-content: space-between;
@@ -38,6 +43,9 @@ a{
     margin-right:2rem;
     font-size: 1.5rem;
 }
+.nav__link:hover{
+    text-decoration: underline;
+}
 #bestCars{
     background-color: #ddd;
     border-top: 0.7rem solid black;
@@ -55,6 +63,7 @@ a{
     height: auto;
     max-width:80%;
     object-fit: contain;
+    animation: alternate-reverse infinite mainPicAnimation 3000ms ease-in-out
 }
 .mainPic--wrap{
     width:50%;
@@ -372,17 +381,30 @@ button:hover{
 /* Small phones, tablets, large smart phones*/
 @media (max-width: 768px){
     .main__h1{
-        font-size: 3rem;
+        font-size: 2.7rem;
     }
     .mainPic--wrap{
-        width:100%;
+        width:90%;
     }
     .firstSection{
         display: flex;
         flex-direction: column;
     }
+    .svg__content{
+        padding:1px;
+        margin:1px;
+    }
+    .svg__wrapper{
+        margin:1px;
+    }
+    #nav__logo{
+        margin-left:0.5rem;
+    }
+    .firstSection__wrapper>h1{
+        font-size: 1.5rem;
+    }
     .main__p{
-        font-size:1.8rem;
+        font-size:1.6rem;
     }
     button{
         font-size:1.5rem;
@@ -421,12 +443,18 @@ button:hover{
         align-items: center;
         justify-content: center;
     }
+    .main__text{
+        margin:0;
+    }
 
 }
 /*Small phones*/
 @media (max-width: 480px){
     .main__h1{
         font-size:1.8rem;
+    }
+    .mainPic--wrap{
+        width:100%;
     }
     .main__p{
         font-size:1.5rem;
